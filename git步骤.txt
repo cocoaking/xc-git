@@ -15,4 +15,6 @@ node_modules
 
 执行git add . 或者 git add --all
 
-git status -s 查看起来更方便
+git status -s 查看起来更方便// -s 是输出简要的变更日志
+
+git commit 将本地的变化提交到本地仓库文件夹归档

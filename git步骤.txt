@@ -17,4 +17,33 @@ node_modules
 
 git status -s 查看起来更方便// -s 是输出简要的变更日志
 
-git commit 将本地的变化提交到本地仓库文件夹归档
+git commit 将本地的变化提交到本地仓库文件夹归档，操作完成。
+
+修改文档后 输入 git diff可查看修改细节
+
+输入git log 可查看修改日志
+
+输入git reset --hard 2d2250 可以回到上一个版本号
+
+输入git help 可以查看到更多的命令
+
+git服务器用来同步本地的代码
+
+github是git服务提供商
+
+github 
+
+账号
+
+密码
+ssh  https://github.com/cocoaking/xc-git.git
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/cocoaking/xc-git.git
+git push -u origin master
+
+
+
+
+

@@ -1,0 +1,18 @@
+安装git : https://www.git-scm.com/download/win
+
+到根文件下开始运行cmd
+
+初始化git :  git init 得到一个 .git 文件夹
+
+查看状态: git status
+
+添加本地存储: git add src
+
+添加本地git忽略清单,在subline中建一个文件: .gitignore
+
+node_modules
+/www
+
+执行git add . 或者 git add --all
+
+git status -s 查看起来更方便
